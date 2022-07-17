@@ -1,12 +1,13 @@
 version: '3'
 services:
   jekyll:
-    container_name: jekyll
+    container_name: jekyll-izwigenhealth
     image:  jekyll/jekyll:pages
     environment: 
       JEKYLL_ENV: docker
     command: jekyll serve --watch --force_polling --verbose --livereload
     ports:
       - 4000:4000
+      - 35729:35729
     volumes:
       - .:/srv/jekyll
