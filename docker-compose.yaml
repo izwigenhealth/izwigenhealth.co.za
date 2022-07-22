@@ -1,7 +1,7 @@
 version: '3'
 services:
   jekyll:
-    container_name: jekyll-izwigenhealth
+    container_name: izwigenhealth
     image:  jekyll/jekyll:pages
     environment: 
       JEKYLL_ENV: docker

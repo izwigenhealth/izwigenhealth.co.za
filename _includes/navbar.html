@@ -1,9 +1,9 @@
-<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+<nav class="navbar is-izwi is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
     <div class="container">
 
         <!-- logo or branding image on left side -->
         <div class="navbar-brand">
-            <a class="navbar-item"
+            <a class="navbar-item has-text-white"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
                 <strong>{{site.title}}</strong>
             </a>
@@ -14,19 +14,14 @@
             </div>
         </div>
 
-        <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
-        <div class="navbar-menu has-background-black" id="navbar-menu">
-            <!-- navbar items | left side -->
-            <!-- <div class="navbar-start">
-            </div> -->
-            <!-- navbar items | right side -->
+        <div class="navbar-menu is-izwi" id="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
-                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/what-we-do">WHAT WE DO</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/services">SERVICES</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/page-vision-mission">VISION/MISSION</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">ABOUT US</a>
+                <a class="has-text-white navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
+                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Home</a>
+                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/what-we-do">What we do</a>
+                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/services">Services</a>
+                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/page-vision-mission">Vision/Mission</a>
+                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/contact">About us</a>
             </div>
 
         </div>

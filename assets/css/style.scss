@@ -68,6 +68,15 @@ a.navbar-item.is-active {
     letter-spacing: 0.25rem;
 }
 
+.image {
+    background-repeat: no-repeat;
+    border-radius: 2%;
+}
+.is-izwi {
+  background-color: #02a842;
+  color: #fff;
+}
+
 #about {
     .image {
         max-width: 20vmax;

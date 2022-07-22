@@ -1,4 +1,4 @@
-<section class="hero is-fullheight has-text-centered" id="hero">
+<section class="hero is-fullheight has-text-centered" id="showcase">
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
@@ -7,10 +7,26 @@
       <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
         {{site.description}}
       </h3>
-      <hr>
+      <!-- <hr> -->
       <!-- <a href="{{site.url}}{{site.baseurl}}/#about"
         class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
       </a> -->
+
+      <div class="columns">
+        <div class="column is-one-half-desktop is-one-half-tablet is-one-half-mobile">
+            <figure class="image is-3x4">
+                <img src= "assets/images/logo.jpeg">
+              </figure>
+        </div>
+        <div class="column is-fixed-to-top is-size-3 content-font remove_link_colour">
+          <h1 class="title has-text-black is-size-1 is-uppercase has-text-weight-bold">
+            {{site.title}}
+          </h1>
+          <h3 class="subtitle has-text-black is-uppercase has-text-weight-medium is-marginless">
+            {{site.description}}
+          </h3>
+        </div>
+    </div>
     </div>
   </div>
 </section>

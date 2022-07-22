@@ -17,14 +17,18 @@ layout: compress
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="section">
-                    <p class="title is-uppercase has-text-weight-medium has-text-grey">Services</p>
-                </div>
-                <div class="section">
-                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Health Services</p>
+                    <p class="is-size-1 is-uppercase has-text-weight-bold has-text-black">
+                        Services offered
+                    </p>
+                    
+                    <hr class="has-background-black">
+
+                    <p class="is-size-3 is-uppercase has-text-weight-medium has-text-black">Health Services</p>
+                    <br>
                     {% include card-health-service.html %}
-                </div>
-                <div class="section">
-                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Legal Services</p>
+
+                    <p class="is-size-3 is-uppercase has-text-weight-medium has-text-black">Legal Services</p>
+                    <br>
                     {% include card-legal-service.html %}
                 </div>
             </div>
