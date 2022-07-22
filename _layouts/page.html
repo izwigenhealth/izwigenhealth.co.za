@@ -23,6 +23,16 @@ layout: compress
                     <div class="content is-marginless">
                         {{ content }}
                     </div>
+                    {% if page.images %}
+                    <br>
+                        <div class="columns has-text-centered is-paddingless is-marginless is-one-third">
+                            {% for image in page.images %}
+                            <div class="column">
+                                <figure class="image is-16by9" style="background-image: url({{image.url}});">
+                                </figure>
+                            </div>
+                            {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </div>

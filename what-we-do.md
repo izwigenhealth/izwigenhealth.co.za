@@ -2,6 +2,9 @@
 title: What we do
 layout: page
 subtitle: We are... because you are
+images: 
+    - url: https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&w=640&h=360&dpr=1
+    - url: https://images.pexels.com/photos/8850742/pexels-photo-8850742.jpeg?auto=compress&cs=tinysrgb&w=640&h=360&dpr=1
 ---
 
 The word “*IZWI*” means the “Voice” in Isizulu. Your voice matters in our core business function.
