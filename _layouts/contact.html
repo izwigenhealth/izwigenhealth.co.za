@@ -1,0 +1,75 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-left" id="page-section">
+                <div class="section">
+                    <h1 class="is-size-1 is-uppercase has-text-weight-bold">
+                        {{page.title}}
+                    </h1>
+                    <br>
+                    <h1 class="is-size-4 is-uppercase has-text-weight-bold">
+                        {{page.subtitle}}
+                    </h1>
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        {{ content }}
+                    </div>
+                    <div class="columns has-text-left is-one-half">
+                        <div class="column is-one-third">
+                            <h2 class="has-text-weight-bold">Clients</h2>
+                            IzwiGenHealth has a lot on offer. Contact us today!
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="container">
+                                {% unless site.email == %}
+                                <a id="contact-button" href="mailto:{{site.email}}"
+                                    class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-one-half"
+                                    target="_blank">
+                                    <i class="fas fa-envelope"></i> Send an Email to inquire
+                                </a>
+                                {% endunless %}
+                            </div>
+                        </div>
+                        <div class="column is-one-third">
+
+                        </div>
+                        <div class="column is-one-third">
+                            <h2 class="has-text-weight-bold">Jobs at IzwiGenHealth</h2>
+                            Here at IzwiGenHealth we are looking for:
+                                <li>Nurses</li>
+                                <li>Care givers</li>
+                                <li>Support Staff</li>
+                                <li>Administration staff</li>
+                                <br>
+                            If you feel like you want to join our company send in your CV and other pertant infomation to us, and we will get back to you.
+                            {% unless site.email == %}
+                                <a id="contact-button" href="mailto:{{site.email}}"
+                                    class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-one-half"
+                                    target="_blank">
+                                    <i class="fas fa-envelope"></i> Send in your CV
+                                </a>
+                            {% endunless %}
+                        </div>
+                    </div>
+    </section>
+    <!--Footer begins here-->
+    {% include footer.html %}
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<div class="columns has-text-centered is-paddingless is-marginless">
+    {% for image in include.images %}
+        <div class="column">
+            <figure 
+            {% if image.css %}
+                class="image {{image.css}}"
+            {% else %}
+                class="image is-16by9"
+            {%endif%}
+            style="background-image: url({{image.url}}?auto=compress&cs=tinysrgb&w=640&h=360&dpr=1);">
+            </figure>
+        </div>
+    {% endfor %}
+</div>
+
