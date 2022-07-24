@@ -23,7 +23,7 @@ layout: compress
                     <div class="content is-marginless">
                         {{ content }}
                     </div>
-                    {% if page.images %}
+                    {% if page.images[0].url %}
                     <br>
                         <div class="columns has-text-centered is-paddingless is-marginless">
                             {% for image in page.images %}
