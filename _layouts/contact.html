@@ -9,8 +9,8 @@ layout: compress
 <body>
     {% include navbar.html %}
     <section class="hero is-fullheight">
-        <div class="hero-body">
-            <div class="container has-text-left" id="page-section">
+        <div class="hero-body" style="align-items: baseline !important;" >
+            <div class="container has-text-left " id="page-section">
                 <div class="section">
                     <h1 class="is-size-1 is-uppercase has-text-weight-bold">
                         {{page.title}}
@@ -23,18 +23,23 @@ layout: compress
                     <div class="content is-marginless">
                         {{ content }}
                     </div>
+                    <div>
+                        
+                    </div>
                     <div class="columns has-text-left is-one-half">
-                        <div class="column is-one-third">
-                            <h2 class="has-text-weight-bold">Clients</h2>
-                            IzwiGenHealth has a lot on offer. Contact us today!
+                        <div class="column">
+                            Izwi Gen Health 101 has a lot on offer. Contact us today!
                             <br>
                             <br>
+                            <h2 class="has-text-weight-bold">Managing Director</h2>
+                            Amanda Mac Donald <br>
+                            &emsp;&emsp;&emsp;0762356261 <br>
+                            &emsp;&emsp;&emsp;amanda@izwigenhealth.co.za<br>
                             <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
+                            <h2 class="has-text-weight-bold">Personal Assistant</h2>
+                            Tayla-Ann Eggleton <br>
+                            &emsp;&emsp;&emsp;0670238691 <br>
+                            &emsp;&emsp;&emsp;info@izwigenhealth.co.za<br>
                             <br>
                             <div class="container">
                                 {% unless site.email == %}
@@ -46,17 +51,20 @@ layout: compress
                                 {% endunless %}
                             </div>
                         </div>
-                        <div class="column is-one-third">
+                        <!-- <div class="column is-one-third">
 
-                        </div>
-                        <div class="column is-one-third">
-                            <h2 class="has-text-weight-bold">Jobs at IzwiGenHealth</h2>
-                            Here at IzwiGenHealth we are looking for:
-                                <li>Nurses</li>
-                                <li>Care givers</li>
-                                <li>Support Staff</li>
-                                <li>Administration staff</li>
-                                <br>
+                        </div> -->
+                        <div class="column is-one-half" style="margin: 0 0 0 0;">
+                            <h2 class="has-text-weight-bold" >Jobs at Izwi Gen Health 101</h2>
+                            Here at Izwi Gen Health 101 we are looking for:
+                                <li style="margin-left: 2em;"> Nurses</li>
+                                <li style="margin-left: 2em;"> Care givers</li>
+                                <li style="margin-left: 2em;"> Support Staff</li>
+                                <li style="margin-left: 2em;"> Administration staff</li>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
                             If you feel like you want to join our company send in your CV and other pertant infomation to us, and we will get back to you.
                             {% unless site.email == %}
                                 <a id="contact-button" href="mailto:{{site.email}}"

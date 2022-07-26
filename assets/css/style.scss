@@ -41,6 +41,13 @@ a.navbar-item.is-active {
     height: 2px;
 }
 
+.button {
+    &:hover {
+        background-color: #02a842 !important;
+        border: #02a842 !important;
+    }
+}
+
 #hero {
     background: rgb(0, 0, 0);
     background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
@@ -115,7 +122,7 @@ a.navbar-item.is-active {
     }
 
     hr {
-        background-color: black;
+        background-color: #02a842;
     }
 }
 
@@ -297,7 +304,7 @@ a.navbar-item.is-active {
     .card {
         transition: all 0.25s ease;
         &:hover {
-            background-color: rgba($color: #000000, $alpha: 0.90)!important;
+            background-color: rgba($color: #018b36, $alpha: 0.90)!important;
         }
     }
 }

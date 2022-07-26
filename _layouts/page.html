@@ -13,12 +13,19 @@ layout: compress
             <div class="container has-text-left" id="page-section">
                 <div class="section">
                     <h1 class="is-size-1 is-uppercase has-text-weight-bold">
-                        {{page.title}}
+                        {{ page.title }}
                     </h1>
                     <br>
                     <h1 class="is-size-4 is-uppercase has-text-weight-bold">
-                        {{page.subtitle}}
+                        {{ page.subtitle }}
                     </h1>
+                    {% if page.reg %}
+                    <p class="is-size-6 is-uppercase has-text-weight-bold">
+                        <br>
+                        {{ page.reg }} &emsp;|&emsp;    {{ page.bbeee }}
+
+                    </p>
+                    {% endif %}
                     <hr class="has-background-black">
                     <div class="content is-marginless">
                         {{ content }}
@@ -34,6 +41,14 @@ layout: compress
                             {% endfor %}
                     {% endif %}
                 </div>
+                {% if page.contact-us %}
+                    <br>
+                    <div class="has-text-centered">
+                        <a href="{{site.url}}{{site.baseurl}}/contact"
+                            class="button is-black is-rounded is-outlined is-uppercase has-text-weight-normal">Contact us for more information</a>
+                        </a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </section>

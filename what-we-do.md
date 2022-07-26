@@ -1,7 +1,12 @@
 ---
-title: What we do
+title: Izwi Gen Health 101
 layout: page
 subtitle: We are... because you are
+reg: |
+    Reg Number: 2022/284870/07
+bbeee: |
+    B-BBEEE Level 1 Contributer
+contact-us: true
 images: 
     - url: https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg
     - url: https://images.pexels.com/photos/8850742/pexels-photo-8850742.jpeg

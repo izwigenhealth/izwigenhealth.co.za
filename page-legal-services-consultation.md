@@ -13,4 +13,6 @@ We hear you when you feel that you have been unfairly treated in any sphere of y
 
 We provide the basic initial consultation where we discuss your case, assess the merits of 	your case. We send out the first letter of demand at a minimal consultation fee. Should you require that your case proceed with litigation, we thereafter source the specialist attorneys and advocates for the representation of your case.
 
+We also assist law institutions to source specialists that will conduct client assessments, site inspections and write reports for all your litigation cases.
+
 {% include section-images.html images=page.images.legal %}
