@@ -33,9 +33,11 @@ Our main focus is in two key areas:
         * Human Rights Law and 
         * Medical Legal Litigation.
 
-Izwi GenHealth understands that our health sector/ Institutions (hospitals, clinics, mental health institutions and old age facilities) have become grossly overwhelmed with the number of patients needing medical or surgical interventions.
+Izwi Gen Health 101 understands that our health sector/ Institutions (hospitals, clinics, mental health institutions and old age facilities) have become grossly overwhelmed with the number of patients needing medical or surgical interventions.
 
 We further understand that the corporate sector has also become increasingly invested in their employees’ total wellness for improved productivity output.
+
 We also note that the educational sector has also been drawn into caring more for their students’ physical and psychological wellbeing.
-At Izwi GenHealth we therefore aim to assist these institutions to decrease this burden through the provision of preventative care.
+
+At Izwi Gen Health 101 we therefore aim to assist these institutions to decrease this burden through the provision of preventative care.
 We achieve this through providing holistic care to the client which encompasses all aspects of the physical, mental, psychological and spiritual wellbeing of the client.

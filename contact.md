@@ -1,5 +1,5 @@
 ---
-title: Contact Izwi GenHealth
+title: Contact Izwi Gen Health 101
 layout: contact
 ---
 
