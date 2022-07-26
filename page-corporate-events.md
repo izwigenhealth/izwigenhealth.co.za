@@ -19,6 +19,7 @@ We come to your place of Business and Public institutions to conduct:
 * Basic Life Support BLS/ CPR (Cardio Pulmonary Resuscitation) training for employees and employers.
 * Basic First Aid Courses 
 * Vaccinations
+* Mental health guidance
 * Any relevant special requests by the client
 
 {% include section-images.html images=page.images.business %}
@@ -29,5 +30,6 @@ We also come to Education Institutions (Schools, Colleges, Universities) to cond
 * Basic Life Support/CPR training for educators and students;
 * Basic first aid courses;
 * Student health wellness/assessment days.
+* Life orientation lessons.
 
 {% include section-images.html images=page.images.education %}

@@ -2,7 +2,7 @@
 layout: our-people
 title: Our People
 image: 
-  url: https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg
+  url: assets/images/amanda.jpeg
   title: Amanda Lorraine Mac Donald 
   label: Admitted Attorney of the High Court of South Africa, Nursing Management/ Educator/ Administrator
 ---
