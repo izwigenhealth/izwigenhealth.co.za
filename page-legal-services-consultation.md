@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Legal Services Consultation
+webpath: Services
 images:
   legal:
     - url: https://images.pexels.com/photos/613508/pexels-photo-613508.jpeg

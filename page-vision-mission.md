@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Vision and Mission
+webpath: Home
 images:
   vision:
     - url: https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg

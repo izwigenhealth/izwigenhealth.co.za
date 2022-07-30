@@ -17,6 +17,13 @@ layout: compress
         <div class="hero-body">
             <div class="container has-text-left" >
                 <div class="section " style="margin: 0 0 0 0;"">
+                    {% if page.webpath %}
+                        {% if page.webpath == 'Home' %}
+                            <a href="{{site.url}}{{site.baseurl}}/" class="is-link is-black is-size-4">{{ page.webpath }}</a> > 
+                        {% else %}
+                            <a href="{{site.url}}{{site.baseurl}}/{{ page.webpath | downcase}}" class="is-link is-black is-size-4">{{ page.webpath }}</a> >
+                        {% endif %}
+                    {% endif %}
                     <p class="is-size-1 is-uppercase has-text-weight-bold">
                         Services offered
                     </p>

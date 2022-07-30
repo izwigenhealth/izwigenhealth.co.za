@@ -1,6 +1,7 @@
 ---
 title: Corporate Events
 layout: page
+webpath: Services
 images:
   business:
     - url: https://images.pexels.com/photos/8943182/pexels-photo-8943182.jpeg

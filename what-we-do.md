@@ -1,6 +1,7 @@
 ---
 title: Izwi GenHealth 101
 layout: page
+webpath: Home
 subtitle: We are... because you are
 reg: |
     Reg Number: 2022/284870/07

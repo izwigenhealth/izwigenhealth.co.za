@@ -1,6 +1,7 @@
 ---
 layout: our-people
 title: Our People
+webpath: Home
 image: 
   url: assets/images/amanda.jpeg
   title: Amanda Lorraine Mac Donald 

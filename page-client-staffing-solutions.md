@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Client Staffing Solutions
+webpath: Services
 images:
   staffing:
     - url: https://images.pexels.com/photos/6192337/pexels-photo-6192337.jpeg

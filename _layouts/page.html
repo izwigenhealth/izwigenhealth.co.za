@@ -11,7 +11,14 @@ layout: compress
     <section class="hero is-fullheight">
         <div class="hero-body">
             <div class="container has-text-left" id="page-section">
-                <div class="section">
+                <div class="section">  
+                    {% if page.webpath %}
+                        {% if page.webpath == 'Home' %}
+                            <a href="{{site.url}}{{site.baseurl}}/" class="is-link is-black is-size-4">{{ page.webpath }}</a> > 
+                        {% else %}
+                            <a href="{{site.url}}{{site.baseurl}}/{{ page.webpath | downcase}}" class="is-link is-black is-size-4">{{ page.webpath }}</a> >
+                        {% endif %}
+                    {% endif %}
                     <h1 class="is-size-1 is-uppercase has-text-weight-bold">
                         {{ page.title }}
                     </h1>

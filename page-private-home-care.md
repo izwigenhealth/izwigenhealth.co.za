@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Private Home Care
+webpath: Services
 subtitle: “Because Home is where the Heart is”
 images:
   comft:
