@@ -9,7 +9,7 @@ image:
 
 # Profile of the managing director
 
-Founder, Managing Director and Attorney at Izwi Gen Health 101
+Founder, Managing Director and Attorney at Izwi GenHealth 101
 
 Amanda Mac Donald has vast experience in the Health industry which spans over 18 years holding various posts in the Nursing Discipline. Further to this, she is an Admitted attorney of the High Court of South Africa and has gained some experience in the Legal industry.
 

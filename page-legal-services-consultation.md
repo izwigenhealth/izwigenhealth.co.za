@@ -7,7 +7,7 @@ images:
     - url: https://images.pexels.com/photos/159832/justice-law-case-hearing-159832.jpeg
 ---
 
-Izwi Gen Health 101 cares about your mental and psychological health.
+Izwi GenHealth 101 cares about your mental and psychological health.
 
 We hear you when you feel that you have been unfairly treated in any sphere of your personal life. When one is in this vulnerable position, you just need a little guidance with the legal process.
 

@@ -7,7 +7,7 @@ images:
     - url: https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg
 ---
 
-Izwi Gen Health 101 provides its clients with placement of screened, qualified, reliable, efficient and competent staff for all health related corporate events. 
+Izwi GenHealth 101 provides its clients with placement of screened, qualified, reliable, efficient and competent staff for all health related corporate events. 
 
 These personnel are:
 * Nursing staff - all categories as per assessed needs of the client
