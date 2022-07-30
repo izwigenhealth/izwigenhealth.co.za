@@ -1,50 +1,47 @@
-<nav class="navbar is-izwi is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+<nav class="is-izwi" role="navigation" aria-label="main navigation" id="navbar" style="z-index: 30; top: 0; left: 0; right: 0; position: fixed">
     <div class="container">
-
-        <!-- logo or branding image on left side -->
-        <div class="navbar-brand">
-            <a class="navbar-item has-text-white"
-                href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>{{site.title}}</strong>
-            </a>
-            <div class="navbar-burger has-text-white has-font-weight-bold" data-target="navbar-menu">
-                <span></span>
-                <span></span>
-                <span></span>
+        <div class="scrollmenu" id="navbarContainer">
+            <div class="columns is-paddingless is-marginless is-full is-mobile">
+                <div class="column is-paddingless is-marginless has-text-left is-one-half">
+                    <a id="navbarItemHome" class="has-text-white" 
+                        href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+                        <strong>{{site.title}}</strong>
+                </a> 
+                </div>
+                <div class="column is-paddingless is-marginless has-text-right is-one-half">
+                    <a id="navbarItemWhat" href="{{site.url}}{{site.baseurl}}/what-we-do">What we do</a>
+                    <a id="navbarItemOur" href="{{site.url}}{{site.baseurl}}/our-people">Our people</a>
+                    <a id="navbarItemServices" href="{{site.url}}{{site.baseurl}}/services">Services</a>
+                    <a id="navbarItemVision" href="{{site.url}}{{site.baseurl}}/vision-mission">Vision/Mission</a>
+                    <a id="navbarItemContact" href="{{site.url}}{{site.baseurl}}/contact">Contact us</a>
+                </div>
             </div>
-        </div>
-
-        <div class="navbar-menu is-izwi" id="navbar-menu">
-            <div class="navbar-end">
-                <a class="has-text-white navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
-                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Home</a>
-                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/what-we-do">What we do</a>
-                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/our-people">Our people</a>
-                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/services">Services</a>
-                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/page-vision-mission">Vision/Mission</a>
-                <a class="navbar-item has-text-white" href="{{site.url}}{{site.baseurl}}/contact">Contact us</a>
-            </div>
-
         </div>
     </div>
 </nav>
-<!-- Bulma Navbar JS -->
+
+<!-- Auto scroll navbar -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         /* Get all "navbar-burger" elements */
-        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('[id^="navbarItem"]'), 0);
         /* Check if there are any navbar burgers */
         if ($navbarBurgers.length > 0) {
-            /* Add a click event on each of them */
             $navbarBurgers.forEach(function ($el) {
-                $el.addEventListener('click', function () {
-                    /* Get the target from the "data-target" attribute */
-                    var target = $el.dataset.target;
-                    var $target = document.getElementById(target);
-                    /* Toggle the class on both the "navbar-burger" and the "navbar-menu" */
+                if ($el.href == window.location.href) {
                     $el.classList.toggle('is-active');
-                    $target.classList.toggle('is-active');
-                });
+                    window.addEventListener('load', goTo ($el.id));
+                }
+                else if (/services/.test($el.href) && /service/.test(window.location.pathname)) {
+                    $el.classList.toggle('is-active');
+                    window.addEventListener('load', goTo ($el.id));
+                }
+            });
+        }
+        function goTo (id) {
+            document.getElementById(id).scrollIntoView({
+                behavior: "smooth",
+                inline: "center",
             });
         }
     });
